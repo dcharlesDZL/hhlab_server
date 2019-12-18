@@ -1,0 +1,27 @@
+<!DOCTYPE html5>
+<head>
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:600,300" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="/css/demo.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/loaders.css"/>
+</head>
+<body>
+  <main>
+    <div class="loaders">
+      <div class="loader">
+        <div class="loader-inner line-scale">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>  
+    </div>
+  </main>
+  <script>
+  
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelector('main').className += 'loaded';
+    });
+  </script>
+</body>
